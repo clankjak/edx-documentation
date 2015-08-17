@@ -64,15 +64,14 @@ Studio, or derived from data that you define in Studio.
   **Course Display Name** policy key defines the course name that appears in
   the LMS only.
 
-  The illustration that follows shows the information entered in Studio for a
-  new course side-by-side with the same information as it appears on the
+  The illustration that follows shows the information that you enter in Studio
+  for a new course, side-by-side with the same information as it appears on the
   **Course Info** page of the Instructor Dashboard.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Course_Info_Comparison.png
    :alt: The Course Name in Studio and the Course Display Name in the LMS are
        boxed; the Course Run in Studio and the Course Name in the LMS are
        circled.
-   :width: 800
 
 * **Course Start Date**: The date and time that the course is scheduled to
   start. This date can be changed in Studio (not recommended if your course is
@@ -82,16 +81,15 @@ Studio, or derived from data that you define in Studio.
   This date can be changed in Studio (not recommended if your course is live).
   For more information, see :ref:`Determine Start and End Dates`.
 
-* **Has the course started**: Derived from the **Course Start Date** and the
+* **Has the course started**: Derived from the **Course Start Date** value and
+  the current date.
+
+* **Has the course ended**: Derived from the **Course End Date** value and the
   current date.
 
-* **Has the course ended**: Derived from the **Course End Date** and the
-  current date. 
-
 * **Number of sections**: The total number of sections created for the course.
-  All course sections are included, regardless of publication status, release
-  date, or other settings that might affect the visibility of the sections to
-  learners.
+  Includes all course sections, regardless of publication status, release date,
+  or other settings that affect whether learners have access to the sections.
 
 * **Grade Cutoffs**: Specified in Studio when you define the cutoff for a
   failing grade. Students who earn exactly the cutoff value pass the course.
