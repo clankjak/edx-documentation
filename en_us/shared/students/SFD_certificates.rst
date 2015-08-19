@@ -4,50 +4,64 @@
 Certificates
 ##############################
 
+This section describes edX certificates and how you access them.
+
+.. contents::
+ :local:
+ :depth: 1
+
+**********
+Overview
+**********
+
 Nearly every course on edx.org offers a certificate when you complete the
-course successfully. The certificate includes your name, the name of the
-course, the edX partner university that created the course, and the names of
-one or more members of the course team. The certificate also lists a URL that
-viewers can use to verify the authenticity of the certificate.
+course successfully. 
 
-.. image:: ../../shared/students/Images/SFD_HCCert.png
-   :width: 500
-   :alt: Example edX honor code certificate
+.. note:: 
+  A small number of edX courses do not offer certificates. For evidence that
+  you completed the course, you can print a copy of the **Progress** page in
+  the course.
 
-Because edX courses are not credit-bearing courses, the certificate doesn't
-include a grade or specify the number of credit hours that the course might
-earn in a university. Additionally, transcripts are not available for edX
-course work.
+A certificate includes your name, the name of the course, and the edX partner
+university that created the course. Verified certificates also include the
+names of one or more members of the course team.
 
-.. note:: Your certificate lists the full name that appears on your dashboard. 
-  Before your course ends, make sure that the name on your dashboard is correct. 
-  To change your full name, go to your dashboard, and then select **edit** under 
-  **Full Name** in the left pane.
+===========================
+Certificates and Your Name
+===========================
+
+You must ensure that if you earn a certificate, it accurately displays your
+full name.
+
+Your certificate uses the full name that appears on your edX dashboard. 
+Before your course ends, make sure that the name on your dashboard is
+correct. For more information, see :ref:`SFD Basic Information`.
+
+=================================
+Certificates, Grades, and Credit
+=================================
+
+A certificate does not include a grade or specify the number of credit hours
+that the course might earn in a university. Additionally, transcripts are not
+available for edX course work.
+
+.. Note:: 
+  Some edX courses offer academic credit. This courses require a different
+  process. For more information, see :ref:`SFD Academic Course Credit Index`.
+
 
 ****************************
-Selecting a Certificate Type
+Certificate Types
 ****************************
 
-Three types of certificates may be available for courses on edx.org: honor
-code, verified, and XSeries. You select the certificate type you want when you
-register for a course.
+EdX offers three types of certificates. You select the certificate type when
+you :ref:`enroll in a course <SFD Enrolling in a Course>`.
 
-Honor code and verified certificates show that you've completed a single honor
-code or verified course. An XSeries certificate shows that you've completed a
-series of courses, known as an XSeries.
+.. contents::
+ :local:
+ :depth: 1
 
-The type of certificate appears in a color-coded tag under the course image on
-your dashboard:
-
-.. image:: ../../shared/students/Images/Dashboard_CertTypes.png
-   :width: 500
-   :alt: Dashboard with color indications for audit, honor code, and verified courses
-
-
-.. note:: A very small number of courses do not offer certificates. These courses 
-  have the same rigorous material as other edX courses. If you want evidence
-  that you completed the course, you can print a copy of the **Progress** page
-  in the course.
+.. Note:: Not all classes offer all types of certificates.
 
 .. _SFD Honor Code Certificates:
 
@@ -55,10 +69,10 @@ your dashboard:
 Honor Code Certificates
 =========================
 
-Honor code certificates are free of charge to all students and are available
-for all except a few specific courses. When you audit a course, or you take a
-course that doesn't offer verified certificates, you'll automatically receive
-an honor code certificate if you meet the requirements to pass the course.
+Honor code certificates are free of charge and are available for all except a
+few specific courses. When you audit a course, or when you take a course that
+does not offer verified certificates, you automatically receive an honor code
+certificate if you meet the requirements to pass the course.
 
 .. image:: ../../shared/students/Images/SFD_HCCert.png
    :width: 500
@@ -66,14 +80,14 @@ an honor code certificate if you meet the requirements to pass the course.
 
 .. _SFD Verified Certificates:
 
-=========================
+======================
 Verified Certificates
-=========================
+======================
 
 Some edX courses offer verified certificates. A verified certificate shows not
 only that you successfully completed your edX course, but also that you've
 verified your identity by using a webcam and an official ID from your country
-or region. You may want to work toward a verified certificate if you plan to
+or region. You might want to work toward a verified certificate if you plan to
 use your course for job applications, promotions, or school applications.
 
 .. image:: ../../shared/students/Images/SFD_VerCert.png
@@ -88,8 +102,7 @@ course image in the list of courses on edx.org.
    :alt: Image of DemoX course listing with a verified badge
 
 For a list of all courses that offer verified certificates, see the `edX
-course catalog <https://www.edx.org/course-
-list/allschools/verified/allcourses>`_.
+course catalog`_.
 
 Verified certificates are available for a fee that varies by course. The fee
 helps support edX. If you want to donate to edX, you can choose to pay more
@@ -105,18 +118,30 @@ Verify Your Identity`.
 .. note:: When you verify your identity for one course, you verify your 
  identity for all edX courses. Verification is effective for one year. If
  you enroll in another verified course within that year, you do not have to
- verify your identity.
+ verify your identity again.
 
 If you have a question or an issue with billing for a verified certificate,
-contact us at `billing@edx.org <mailto://billing@edx.org>`_. Include your
+contact edX at `billing@edx.org <mailto://billing@edx.org>`_. Include your
 order number, but please **do not include your credit card information**.
 
 =========================
 XSeries Certificates
 =========================
 
-XSeries certificates show that you've successfully earned a verified certificate
-for each course in a series of courses that make up an XSeries.
+XSeries certificates show that you've successfully earned a verified
+certificate for each course in a series of courses that make up an XSeries.
+
+If a course is part of an XSerices, you see an "XSeries Program" badge on the
+course image in the list of courses on edx.org.
+
+.. image:: ../../shared/students/Images/SFD_VerifiedBadge.png
+   :width: 200
+   :alt: Image of DemoX course listing with a verified badge
+
+For a list of all courses that are part of an XSeries, see the `edX
+course catalog`_.
+
+.. _edX course catalog: https://www.edx.org/course-list/allschools/verified/allcourses`
 
 ****************************
 Changing a Certificate Type
@@ -124,18 +149,16 @@ Changing a Certificate Type
 
 You may register for one type of certificate but later decide that you want a
 different type of certificate. For example, you may register for an honor code
-certificate, but you might later want to change to a verified certificate. You
-can change the certificate type until registration for verified certificates
-ends for your course, usually two or more weeks after the course starts.
+certificate, but then later decide that you want to earn a verified
+certificate.
+
+You can change the certificate type until registration for verified
+certificates ends for your course, usually two or more weeks after the course
+starts.
 
 * To upgrade to a verified certificate, go to your dashboard, and then select
-  **Challenge Yourself!** under the name of your course. You then follow
-  the onscreen instructions to register for a verified certificate.
-
-  If registration for verified certificates has closed, you cannot change your
-  certificate type. Registration for verified certificates typically closes
-  two weeks after the course has started, or after at least one assignment due
-  date has passed.
+  **Upgrade to Verified Track** under the name of your course. You then follow
+  the instructions to register for a verified certificate.
 
 * To change from a verified certificate to an honor code certificate, go to
   your dashboard, and then select **Unregister** under the name of your
@@ -149,7 +172,7 @@ ends for your course, usually two or more weeks after the course starts.
   closes two weeks after the course has started, or after at least one
   assignment due date has passed.
 
-If you have questions about changing your certificate type, you can contact
+If you have questions about changing your certificate type, contact
 the edX support team at `technical@edx.org <mailto://technical@edx.org>`_.
 
 *************************
@@ -157,42 +180,98 @@ Receiving a Certificate
 *************************
 
 Certificates are distributed shortly after a course ends--usually within two
-weeks. After the course ends, you'll see the following message under the course
-name on your dashboard:
+weeks. After the course ends, you see the following message under the
+course name on your dashboard:
 
 ::
 
   Final course details are being wrapped up at this time. Your final standing
   will be available shortly.
 
-When your certificate is ready, your dashboard will show you your final grade
-for the class as well as a link to your certificate.
+When your certificate is ready, your dashboard shows your final grade as well
+as a link to your certificate. You can access either a `web-based <Web
+Certificates>`_ or `PDF-based <PDF Certificates>`_ certificate.
+
+========================
+Web Certificates
+========================
+
+Newer edX courses issue web-based certificates. You access your web-based PDF
+certificate from your dashboard.
+
+The following example shows a the link to an honor code certificate in the
+dashboard.
 
 .. image:: ../../shared/students/Images/SFD_Cert_DownloadButton.png
    :width: 500
-   :alt: Dashboard with course name, grade, and link to certificate
+   :alt: Dashboard with course name, grade, and link to certificate.
 
-If you want a paper copy of your certificate, you can select **Download Your
-Certificate (PDF)** to download and print the certificate from your dashboard.
+The following example shows a the link to a verified certificate in the
+dashboard.
 
-.. note:: Your certificate lists the full name that appears on your dashboard. 
-  Before your course ends, make sure that the name on your dashboard is correct. 
-  To change your full name, go to your dashboard, and then select **edit** under 
-  **Full Name** in the left pane.
+.. image:: ../../shared/students/Images/SFD_Cert_DownloadButton.png
+   :width: 500
+   :alt: Dashboard with course name, grade, and link to certificate.
 
-=============================================
-Receiving Certificates for Self-Paced Courses
-=============================================
+
+Share Your Web Certificate
+***************************
+
+You can share your web certificate on Facebook, LinkedIn, and Twitter.
+
+Select the social icons at the top of your certificate.
+
+IMAGE
+
+A dialog box for the social site you selected opens, with the certificate URL
+entered. Complete the steps for the social site to post your certificate.
+
+=================
+PDF Certificates
+=================
+
+Older edX courses issued PDF certificates. You can access your PDF certificate
+from the your dashboard.
+
+The following example shows a the link to an honor code certificate in the
+dashboard.
+
+.. image:: ../../shared/students/Images/SFD_Cert_DownloadButton.png
+   :width: 500
+   :alt: Dashboard with course name, grade, and link to certificate.
+
+The following example shows a the link to a verified certificate in the
+dashboard.
+
+.. image:: ../../shared/students/Images/SFD_Cert_DownloadButton.png
+   :width: 500
+   :alt: Dashboard with course name, grade, and link to certificate.
+
+
+Share Your PDF Certificate on LinkedIn
+**************************************
+
+You can share your PDF certificate on LinkedIn, and Twitter.
+
+Select **Add to profile** beneath the course in your dashboard.
+
+IMAGE
+
+Your profile page in LinkedIn opens, with a prompt to confirm the addition of
+your certificate.
+
+***********************************
+Certificates for Self-Paced Courses
+***********************************
 
 While most edX courses have specific start and end dates, a few courses are
 self-paced. You can start these courses anytime and work through the
 courseware at your own pace.
 
 Receiving a certificate for a self-paced course is similar to receiving a
-certificate for a regular course. After you've completed all course
-assignments and the final exam (if applicable), a certificate is generated
-automatically. You don't have to complete any additional steps to obtain your
-certificate.
+certificate for a regular course. After you have completed all course
+assignments, a certificate is generated automatically. You don't have to
+complete any additional steps to obtain your certificate.
 
 Be aware, however, that different self-paced courses issue certificates at
 different intervals. Some courses issue certificates once a month, and others
@@ -202,8 +281,9 @@ for your course.
 
 .. _SFD On Demand Certificates: 
 
+======================
 On-Demand Certificates
-*********************************
+======================
 
 A few self-paced courses offer on-demand certificates. These certificates
 allow you to request and download your certificate as soon as you complete
@@ -218,25 +298,25 @@ certificate, you see the following message at the top of the course
 .. image:: ../../shared/students/Images/SFD_Cert_QualifiedOnDemand.png
   :width: 500
   :alt: Image of the top of a Progress page, with the text "Congratulations,
-      you've qualified for a certificate!"
+      you qualified for a certificate!"
 
 You can request your certificate at any time after you have qualified for the
-certificate. Note, however, that if you request your certificate before the
-end of the course, the grade that you see on your dashboard no longer updates
-automatically as you complete coursework. Your **Progress** page continues to
-reflect your current grade. To update your grade on your dashboard, request
-your certificate again.
+certificate. 
 
-.. note:: Your course grade does not appear on your certificate.
+.. Caution:: 
+  If you request your certificate before the end of the course, the grade that
+  you see on your dashboard no longer updates automatically as you complete
+  coursework. Your **Progress** page continues to reflect your current grade.
+  To update your grade on your dashboard, request your certificate again.
 
 
 .. _Request Download Certificate:
 
+====================================
 Request and Download a Certificate
 ====================================
 
-To receive your certificate at any time after you have qualified for the
-certificate, follow these steps.
+To receive your certificate at any time after you qualify, follow these steps.
 
 #. On the course **Progress** page, select **Request Certificate**.
 
@@ -247,8 +327,8 @@ certificate, follow these steps.
    .. image:: ../../shared/students/Images/SFD_Certs_CertificateAvailable.png
     :width: 500
     :alt: Image of a message with the following text: "Your certificate is
-        available. You can now download your certificate as a PDF here or on
-        your dashboard."
+        available. You can keep working for a higher grade, or request your
+        certificate now."
 
 #. Download your certificate from the **Progress** page or from your dashboard.
 
