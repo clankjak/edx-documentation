@@ -266,7 +266,7 @@ it is possible that certificates have already been issued to learners.
 
 The certificate is no longer active and the course team can edit it. No new
 certificates can be issued to learners while it is deactivated. Learners who
-have already been issued a certificate can continue to access it.
+have already been issued certificates can continue to access them.
 
 
 .. _Manage Certificate Images:
