@@ -3,39 +3,43 @@
 Reusing Course Content
 ##########################################
 
-EdX is a learning tool interoperability (LTI) tool provider. You can use this capability to present components from a course created in Studio in any campus or institutional system that is an LTI consumer. As a result, edX course content can be reused in contexts other than the edX LMS, including Canvas, Blackboard, and many other learning systems. 
+EdX is a learning tool interoperability (LTI) tool provider. You can use this
+capability to present content from a course created in Studio in any system
+that is an LTI consumer. As a result, you can reuse edX course content in
+contexts other than the edX LMS, including courses in Canvas, Blackboard, and
+other learning systems.
 
-Learners who use a campus-based learning system are presented with high quality edX content in the same context as their other learning experiences.
+For learners who are already using another learning system, edX content, including advanced problem types and videos, is integrated into the familiar context seamlessly, typically in an IFrame on the page. Only the content, without repetitive navigation or other controls, appear. 
+ 
 
-Typically, edX content appears in-frame on the page. This makes the edX content appear seamlessly in LMS
+Prerequisites 
 
-- Only the requested module will be shown
-– No navigation or other clutter
+* Enrollment: You manage the course roster entirely on the remote learning
+  system. You do not need to pre-register or pre-enroll learners separately in
+  the edX LMS.
 
-Prerequisites
+* Authentication: After initialization, learners who sign in to a campus system
+  can access content from that system and from edX. Learners do not need to
+  navigate to a different web site or sign in again.
 
-* Enrollment: You manage the course roster entirely on your campus system. You do not need to pre-register or pre-enroll learners on the edX system.
+* Grades: Learner responses to edX problem components are graded by the edX
+  platform and then transferred automatically to the campus system's gradebook.
 
-* Authentication: After initialization, learners who sign in to a campus system can access edX content. They do not need to navigate to a separate web site or sign in again.
-
-* Grades: Learner responses to edX problems are graded by the edX platform and then automatically transferred to the campus system's gradebook. 
-  
-  The edX platform remembers each learner's' progress in the course material since their last visit.
-
+  Each learner's progress in through the edX content is saved. Learners can
+  start, stop, and resume work in the remote learning system in the same way
+  that they would in the edX LMS.
 
 
 Check with your system administrator [or partner manager] for information about how they have configured your Open edX implementation.
 
 For example, your system administrator might direct you to use a different Studio website for the courses you want to 
 
-courseware
-including videos and problems, 
+
 
 
 Benefits for Instructors & Institutions
 
 * Instructors can harness the power and flexibility of edX to deliver high quality learning experiences while maintaining their use of campus systems in which rosters and grades are managed by the institution.
-
 
 
 Benefits for Campus Learners
@@ -63,6 +67,14 @@ but we do watch out for “unpublished” — the assumption is that such conten
 remove discussion boards
 
 
+To include the content of an existing course in another system, course teams   use the LMS to view data about the XBlock they want to include. 
+
+They will use a link (like) Staff Debug to get the URL of the specific component, unit, or subsection, and then paste that URL into the course on the receiving (Blackboard or Canvas, tool consumer) side.
+
+- everything contained within the selected course element is included (can select a single video, but can't include an entire unit except for one video)
+- there is currently an issue with grading, which would require each graded problem to be added individually. Grade aggregation may be resolved by eoAugust, AND they can still view everything in the TC, even if grades don’t go over.
+- Users viewing the content in an external system are not enrolled in the course, they do not belong to a cohort. 
+- grade transfer is near-ish real time, not instantaneous. We can recover from link failure (state is retained, will need to do some manual fixup)
 
 
 
