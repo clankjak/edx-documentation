@@ -6,11 +6,11 @@ Change Log for 2015
 
 This section lists changes made to this document in 2015.
 
-For older changes, see :ref:`Change Log 2014`.
-
 .. contents::
  :local:
  :depth: 1
+
+For older changes, see :ref:`Change Log 2014`.
 
 ****************
 August 2015
@@ -22,6 +22,10 @@ August 2015
 
    * - Date
      - Change
+   * - 28 August 2015
+     - Updated the :ref:`Enrollment` section to remove references to enrollment
+       counts on the Instructor Dashboard. Course enrollment data is available
+       in edX Insights.
    * - 12 August 2015
      - Added the :ref:`Qualtrics Survey` topic.
    * - 5 Aug 2015
