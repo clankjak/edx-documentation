@@ -64,7 +64,7 @@ start the course.
 
   .. note::
     For courses on edX.org, you must communicate the course start and end dates
-    and times to your edX program manager to ensure the information is accurate
+    and times to your edX Program Manager to ensure the information is accurate
     on the course About page.
 
 ============================

@@ -40,8 +40,8 @@ Certificate Design
 
   The design of certificates for your course, including your institution's
   logo, are configured on your instance of Open edX. For more information, see
-  Configuring Certificates in *Installing, Configuring, and Running the Open 
-  edX Platform*.
+  `Configuring Certificates`_ in *Installing, Configuring, and Running the
+  Open edX Platform*.
 
 .. only:: Partners
 
@@ -49,15 +49,6 @@ Certificate Design
   logo, are configured on edx.org by edX.  Contact your Program Manager for
   more information.
 
-.. only:: Open_edX
-    
-  **************************
-  Configure Certificates
-  **************************
-
-  Before you can use certificates, you must configure certificates in your
-  instance of Open edX. For more information, see Configuring Certificates in
-  *Installing, Configuring, and Running the Open edX Platform*.
 
 *******************
 Enable Certificates
@@ -71,6 +62,7 @@ course.
 #. In the **Certificate Web/HTML View Enabled** field, enter ``true``.
 
 #. At the bottom of the page, select **Save Changes**.
+
 
 *********************
 Create a Certificate
@@ -94,16 +86,16 @@ To create a certificate for your course, follow these steps.
 
 .. only:: Partners
 
-   4. For verified certificates, upload an image file showing the signature of
-      each person whose name and title you want to appear on the certificate.
-      You must specify at least one signatory, and can add a maximum of four.
+   4. For verified certificates, you must specify one to four people whose
+      names and titles you want to appear on the certificate. Upload an image
+      file showing the signature of each person.
 
 .. only:: Open_edX
 
    4. Optionally, upload an image file showing the signature of each person
       whose name and title you want to appear on the certificate.
 
-5. When you have finished, select **Create**.
+5. When you have finished creating your certificate, select **Create**.
 
    You can :ref:`preview the certificate<Preview a Certificate>` to see how it
    will appear to a learner taking the course in the selected mode.
@@ -122,8 +114,9 @@ You can edit a certificate before it is activated.
 
 .. only:: Open_edX
 
-  After a certificate is activated, only a course Admin can edit the
-  certificate.
+  After a certificate is activated, only a course team member with the Admin
+  role can edit the certificate. As a best practice, the administrator should
+  `deactivate <Deactivate a Certificate>`_ the certificate before making edits.
 
 .. only:: Partners
 
@@ -164,15 +157,14 @@ You can delete a certificate that is not activated.
   Do not delete a certificate after the course has started. A learner who has
   already earned a certificate will no longer be able to access it.
 
-To delete a certificate configuration, follow these steps.
+To delete a certificate, follow these steps.
 
 #. In Studio, from the **Settings** menu, select **Certificates**.
 
 #. On the Certificates page, at the top right corner of the certificate
-   configuration form, select the "Delete" icon.
+   form, select the "Delete" icon.
 
-#. In the confirmation dialog, confirm that you want to delete the certificate
-   configuration.
+#. In the confirmation dialog, confirm that you want to delete the certificate.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/CertificateDeleteIcon.png
    :width: 500
@@ -220,13 +212,13 @@ Activate a Certificate
 
 .. only:: Open_edX
 
-  When you have verified your certificate, a course Admin must activate the
-  certificate.
+  When you have verified your certificate, a course team member with the Admin
+  role must activate the certificate.
 
   .. note:: Course team members without the Admin role cannot activate a
      certificate.
 
-  The course Admin must complete the following steps.
+  The course team administrator must complete the following steps.
 
   #. In Studio, from the **Settings** menu, select **Certificates**.
 
@@ -243,7 +235,7 @@ grade or otherwise qualify receive certificates.
 .. _Deactivate a Certificate:
 
 ********************************************
-Deactivate a Certificate Configuration
+Deactivate a Certificate
 ********************************************
 
 In some situations, after having made a certificate active, you
@@ -259,19 +251,21 @@ it is possible that certificates have already been issued to learners.
 
 .. only:: Open_edX
 
-  A course Admin must deactivate the certificate.
+  A course team member with the Admin role must deactivate the certificate.
 
   .. note:: Course team members without the Admin role cannot deactivate a
      certificate.
 
-  The course Admin must complete the following steps.
+  The course team administrator must complete the following steps.
 
   #. In Studio, from the **Settings** menu, select **Certificates**.
 
-  #. On the Certificates page, click **Deactivate**.
+  #. On the Certificates page, select **Deactivate**.
 
-The certificate is no longer active. Certificates cannot be viewed by or issued
-to learners.
+The certificate is no longer active and the course team can edit it. No new
+certificates can be issued to learners while it is deactivated. Learners who
+have already been issued a certificate can continue to access it.
+
 
 .. _Manage Certificate Images:
 
@@ -323,3 +317,6 @@ manually remove unused images. For information, see
 
   To enable badging for your course if it has previously been disabled, change
   the value of the key to ``True``.
+
+
+.. _Configuring Certificates: http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/latest/configuration/enable_certificates.html
