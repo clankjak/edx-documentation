@@ -12,6 +12,9 @@ August 2015
 
    * - Date
      - Change
+   * - 28 August 2015
+     - Updated the :ref:`Course Data` topic to include descriptions of newly
+       added values.
    * - 17 August 2015
      - Updated the :ref:`Discussions` section with information about discussion
        administration options that are not yet available in the edX mobile
