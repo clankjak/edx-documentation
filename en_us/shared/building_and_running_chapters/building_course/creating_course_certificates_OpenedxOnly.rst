@@ -84,18 +84,20 @@ To create a certificate for your course, follow these steps.
    title on your course certificates if, for example, the official course
    name is too long to fit well on the certificate.
 
+#. Add a signatory for each person associated with the course or organization
+   whose name and title you want to appear on the certificate, up to a maximum
+   of four signatories. You must specify at least one signatory.
+
 .. only:: Partners
 
-   4. For verified certificates, you must specify one to four people whose
-      names and titles you want to appear on the certificate. Upload an image
-      file showing the signature of each person.
+   5. For verified certificates, you must upload an image file showing the
+      signature of each signatory.
 
 .. only:: Open_edX
 
-   4. Optionally, upload an image file showing the signature of each person
-      whose name and title you want to appear on the certificate.
+   5. Optionally, upload an image file showing the signature of each signatory.
 
-5. When you have finished creating your certificate, select **Create**.
+6. When you have finished creating your certificate, select **Create**.
 
    You can :ref:`preview the certificate<Preview a Certificate>` to see how it
    will appear to a learner taking the course in the selected mode.
