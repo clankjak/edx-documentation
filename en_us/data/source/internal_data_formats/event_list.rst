@@ -220,9 +220,9 @@ M, N, O
      - :ref:`ora2`
    * - ``openassessmentblock.submit_feedback_on_assessments``
      - :ref:`ora2`
-   * - ``openassessment.create_submission``
+   * - ``openassessmentblock.create_submission``
      - :ref:`ora2`
-   * - ``openassessment.save_submission``
+   * - ``openassessmentblock.save_submission``
      - :ref:`ora2`
    * - ``openassessment.student_training_assess_example``
      - :ref:`ora2`
